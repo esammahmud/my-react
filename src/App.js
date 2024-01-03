@@ -1,6 +1,6 @@
 import React from 'react';
 //import Navbar from './components/home';
-import Team from './team page component/team';
+import Team from './pages/team';
 
 function App() {
   return (

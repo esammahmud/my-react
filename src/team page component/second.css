@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gugi&family=Lobster&family=Montserrat:wght@300&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Sevillana&display=swap');
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#f2f2f2;
+  
+}
+  section .cardd .imagee{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #007bff;
+  }
+  section .cardd .imagee img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  .cardd{
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    width: 280px;
+    margin: 20px 0;   
+    margin-top: -377px;
+    margin-left: 780px;
+    box-shadow: 0 45px 80px rgba(0,0,0,0.15);
+  }
+  .cardd::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #007bff;
+    border-radius: 20px 20px 0 0;
+  }
+  .cardd .card-contentt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+  }
+  .cardd .media-iconss{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardd .media-iconss i{
+    color:#fff;
+    opacity: 0.6;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  .cardd .media-iconss i:hover{
+    opacity: 1;
+  }
+  .cardd .name-professionn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color:#333;
+  }
+  .name-professionn .namee{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .name-professionn .professionn{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .cardd .ratingg{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+  }
+  .cardd .ratingg i{
+    font-size: 18px;
+    margin: 0 2px;
+    color: #007bff;
+
+  }
+  .cardd .buttonn{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+  }
+  .cardd .buttonn button{
+    background: #007bff;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .buttonn button:hover{
+    background: #fff;
+    border: 2px solid #007bff;
+    color: #333;
+  }
