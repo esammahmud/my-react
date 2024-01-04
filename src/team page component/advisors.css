@@ -2,37 +2,42 @@
 
 
 
-.team .member{
+.teamo .membero{
     position:relative;
     padding: 30px;
     box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
-    border-radius: 5px;
-    background: #fff;
+    border-radius: 15px;
+    background: #008b8b;
+    margin-left: 90px;
+    width: 1120px;
+    height: 200px;
   }
-  .team .member .teampic{
+  .teamo .membero .teampico{
     overflow: hidden;
-    width: 180px;
-    border-radius: 50%;
+    width: 270px;
+    border-radius:50%;
+    margin-left: 30px;
+    margin-top: -60px;
     
     
   }
-  .team .member .member-info{
+  .teamo .membero .member-infoo{
     padding-left: 30px;
   }
-  .team .member h4{
+  .teamo .membero h4{
     font-weight: 700;  
     margin-bottom: 5px;
     font-size: 20px;
-    color: tomato;
+    color: white;
   }
-  .team .member span{
+  .teamo .membero span{
     display: block;
     font-size: 15px;
     padding-bottom: 10px;
     position: relative;
     font-weight: 500;
   }
-  .team .member span::after{
+  .teamo .membero span::after{
     content: "";
     position: absolute;
     display: block;
@@ -42,39 +47,58 @@
     bottom: 0;
     left: 0;
   }
-  .team .member p{
+  .teamo .membero p{
     margin: 10px 0 0 0;
     font-size: 14px;
   }
-  .team .member .social{
+  .teamo .membero .socialo{
     margin-top: 12px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-top: 120px;
+    margin-left: -600px;
   }
-  .team .member .social a{
+  .teamo .membero .socialo a{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 32px;
     height: 32px;
-    background: #eff2f8;
+    background: transparent;
   }
-  .team .member .social a i{
-    color: tomato;
+  .teamo .membero .socialo a i{
+    color: white;
     font-size: 16px;
     margin: 0 2px;
   }
-  .team .member .social a:hover{
-    background: tomato;
+  .teamo .membero .socialo a:hover{
+    background: black;
   }
-  .team .member .social a:hover i{
-    color:#fff;
+  .teamo .membero .socialo a:hover i{
+    color:white;
   }
-  .team .member .social a+a{
+  .teamo .membero .socialo a+a{
     margin-left: 8px;
   }
-  .section-title{
+  .section-titleo{
     text-align: center;
     margin-top: 80px;
   }
+  .under{
+    position:relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: #333;
+    margin-left: 600px;
+    margin-top: -20px;
+    width: 300px;
+    height: 180px;
+  }
+  .fonts{
+    color: white;
+    margin-top: -20px;
+    text-align: center;
+  }
+  

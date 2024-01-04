@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './team member.css'; // Import your CSS file
-import leader1 from './esam mahmud.jpeg';
+import leader1 from '../img/esam mahmud.jpeg';
 
 const teammembercards  = () => {
   return (

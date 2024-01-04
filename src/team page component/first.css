@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gugi&family=Lobster&family=Montserrat:wght@300&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Sevillana&display=swap');
 
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:#f2f2f2;
-  
-}
+
 section .cardl .imagel{
     height: 140px;
     width: 140px;
